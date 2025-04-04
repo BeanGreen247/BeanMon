@@ -2,7 +2,7 @@
 
 A simple Linux system monitor that displays CPU usage, memory info, and disk space in a small X11 window.
 
-I recommend using it wuth fvwm3 and add the following styling in your fvwm3 config file
+I recommend using it with fvwm3 and add the following styling in your fvwm3 config file
 
 ```
 # == Window decors and overrides ==
