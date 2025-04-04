@@ -13,6 +13,8 @@ Style "FvwmPager"  NoTitle, Icon, Sticky, WindowListSkip, Handles, BorderWidth 7
 Style "BeanMon"     NoTitle, Sticky, WindowListSkip, BorderWidth 7
 ```
 
+![screenshot](screen.png)
+
 ## Build
 
 Make sure you have `gcc` and the X11 development libraries installed (e.g. `libx11-dev` on Debian/Ubuntu).
