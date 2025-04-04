@@ -29,11 +29,10 @@ make
 ./BeanMon
 ```
 
-## Files
+## Major Files
 
 - `main.c` – The source code
 - `Makefile` – For building the program
-- `LICENSE` – WTFPL (Do What the F*** You Want To Public License)
 
 ## License
 
