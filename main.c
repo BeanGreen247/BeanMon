@@ -64,7 +64,7 @@ void get_memory_info(int *free_mem, int *cached_mem) {
     int value;
     if (fp) {
         while (fscanf(fp, "%s %d kB", label, &value) != EOF) {
-            if (strcmp(label, "MemAvailable:") == 0)
+            if (strcmp(label, "MemFree:") == 0)
                 *free_mem = value / 1024;
             if (strcmp(label, "Cached:") == 0)
                 *cached_mem = value / 1024;
